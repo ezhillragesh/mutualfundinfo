@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #606C5D;
+}
+
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+   
+}
+.info h1{
+    padding-bottom: 2rem;
+}
+.info p{
+    text-align:justify;
+    padding-bottom: 1rem;
+}
+
+.info a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.info a:hover{
+    text-decoration: underline;
+    color: #555;
+
+}
+.wrapper {
+    max-width: 450px;
+    margin: 150px auto;
+}
+
+.search-input {
+    position: relative;
+    background: #fff;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.12);
+}
+
+.search-input input {
+    height: 55px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0 60px 0 20px;
+    font-size: 18px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-input .icon {
+    height: 55px;
+    width: 55px;
+    line-height: 55px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+}
+
+.search-input .autocom-box {
+    max-height: 280px;
+    overflow-y: auto;
+}
+
+.autocom-box li {
+    list-style: none;
+    padding: 8px 12px;
+    width: 100%;
+    cursor: default;
+}
+
+.autocom-box li:hover {
+    background: #e6e1e1;
+}
+
+.table-wrapper {
+    margin-top: 20px;
+    overflow-x: auto;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.data-table th,
+.data-table td {
+    padding: 8px 12px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+.data-table th {
+    background-color: #f2f2f2;
+}
+
+.data-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.clear-button {
+    display: block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    border: none;
+    background-color: #FFF4F4;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.1s;
+    border-radius: 5px;
+  }
+  
+  .clear-button:hover {
+    background-color: #555;
+  }

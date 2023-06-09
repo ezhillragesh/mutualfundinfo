@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="searchstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Ragesh Fund</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="info">
+            <h1>Mutual Funds Info</h1>
+            <p>Welcome to <b>Ragesh's</b> mutual fund page! Here, you can easily search for mutual fund schemes. Simply start typing the name of a mutual fund in the search bar, and I'll provide you with the data of the Mutual Fund from its Start Date</p>
+            <div> To know more about Ragesh <a href="https://linktr.ee/ezhillragesh">Click here</a></div>
+        </div>
+        <div class="search-input">
+            <input type="text" placeholder="Mutual Funds..." id="inputbar">
+            <div id="searchResults" class="autocom-box"></div>
+            <div class="icon"><i class="fa fa-search"></i></div>
+        </div>
+        <button id="clearButton" class="clear-button">Clear</button>
+        <div class="table-wrapper">
+            <table id="dataTable" class="data-table">
+                
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Net Assest Value</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+    <script src="search.js"></script>    
+</body>
+</html>
