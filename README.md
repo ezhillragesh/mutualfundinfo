@@ -1,6 +1,6 @@
 # Mutual Fund Search
 <h2>
-  <a href="https://ezhillragesh.github.io/">Click here to view the Website</a>
+  <a href="https://ezhillragesh.github.io/mutualfundinfo/">Click here to view the Website</a>
 </h2>
 
 Mutual Fund Search is a web application that allows users to search for mutual fund schemes and view their details. It utilizes a combination of HTML, CSS, and JavaScript to provide a user-friendly interface and fetch data from an API.
